@@ -20,6 +20,7 @@ public class HelloFuncthion : MonoBehaviour
 
         float tmp = size/pi;
 
+        //Mathf.Sqrt(squre route)
         float radius = Mathf.Sqrt(tmp);
 
         return radius;
