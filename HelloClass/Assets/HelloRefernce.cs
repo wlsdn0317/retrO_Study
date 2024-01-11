@@ -8,7 +8,7 @@ public class HelloRefernce : MonoBehaviour
 
     void Start()
     {
-        rb.Addforce(0,1000,0);
+        rb.AddForce(0,1000,0);
     }
 
     // Update is called once per frame
