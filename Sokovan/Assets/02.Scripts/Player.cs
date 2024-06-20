@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameManager gameManager;
+
+
     public float speed = 10f;
     private Rigidbody playerRigidbody; 
 
@@ -15,6 +18,12 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (gameManager.isGameOver == true)
+        {
+            return;
+        }
+
+
         //-1 ~ +1
         //"Horizontal" 수평, A,D
         //true or false가 아닌 이유는 '조이스틱'때문에

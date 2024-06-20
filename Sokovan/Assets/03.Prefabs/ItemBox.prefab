@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3601729457329378984}
   - component: {fileID: 4622421443888645745}
   - component: {fileID: 7744504980272271662}
+  - component: {fileID: 927022815849145738}
   m_Layer: 0
   m_Name: ItemBox
   m_TagString: Untagged
@@ -115,7 +116,7 @@ Rigidbody:
   m_GameObject: {fileID: 6228283798598330942}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 10
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -133,3 +134,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &927022815849145738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228283798598330942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6cb5806d46024478baabf1135daf26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchColor: {r: 0, g: 0.035513878, b: 1, a: 0}
